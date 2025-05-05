@@ -20,14 +20,41 @@
   --text-heading: #F9F9F9;
 
   --font-logo: "Leckerli One", cursive;
-  --logo: 400 2.5rem/auto var(--font-logo);
+  --logo: 400 2.5rem/normal var(--font-logo);
 
   --font-heading: "Baloo 2", sans-serif;
-  --h1: 800 1.75rem/auto var(--font-heading);
-  --h2: 800 1.125rem/auto var(--font-heading);
+  --h1: 800 1.75rem/normal var(--font-heading);
+  --h2: 800 1.125rem/normal var(--font-heading);
 
   --font-body: "Open Sans", sans-serif;
-  --body-md: 600 1rem/auto var(--font-body);
-  --body-sm: 600 .875rem/auto var(--font-body);
-  --body-xs: 600 .75rem/auto var(--font-body);
+  --body-md: 300 1rem/normal var(--font-body);
+  --body-sm: 300 .875rem/normal var(--font-body);
+  --body-xs: 300 .75rem/normal var(--font-body);
+}
+
+body {
+  background-color: var(--shape-background);
+  overflow: hidden;
+  margin: 0;
+  padding: 1.25rem;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2{
+  flex: 2;
 }
