@@ -443,9 +443,30 @@ input[type="datetime-local"] {
 
     &:has(:checked) .checkbox-img {
       border: 1px solid var(--brand-light);
-      background-image: url(/assets/icons/check.svg);
+      background-image: url(assets/icons/check.svg);
       align-self: center;
       
+    }
+  }
+}
+
+.button-wrapper {
+  margin-top: 3rem;
+
+  button {
+    background-color: var(--brand-dark);
+    padding: .8125rem 1.25rem;
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+    
+    p {
+      font: 400 1rem/normal var(--font-body);
+      color: var(--text-heading);
     }
   }
 }

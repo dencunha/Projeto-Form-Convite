@@ -35,7 +35,7 @@
 body {
   background-color: var(--shape-background);
   overflow: hidden;
-  margin: 0;
+  /* margin: 1.25rem; */
   padding: 1.25rem;
   height: 100vh;
 }

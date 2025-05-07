@@ -6,15 +6,16 @@
 }
 
 aside {
-  background-image: url(/assets/Background.png);
-  /* display: block; */
+  background-image: url(assets/Background.png);
   background-size: cover;
   border-radius: .75rem;
   overflow: hidden;
   margin-left: auto;
+  margin-bottom: 2.5rem;
 
   & .aside-container {
     max-width: 25rem;
+
     header {
       margin-inline: 2rem;
       margin-top: 2rem;
@@ -39,7 +40,7 @@ aside {
 
 main {
   background-color: var(--shape-body);
-  overflow: scroll;
+  overflow: auto;
   padding: 5rem 8.125rem;
   border-radius: .75rem;
   
