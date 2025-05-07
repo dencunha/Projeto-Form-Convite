@@ -443,7 +443,7 @@ input[type="datetime-local"] {
 
     &:has(:checked) .checkbox-img {
       border: 1px solid var(--brand-light);
-      background-image: url(/assets/icons/check.svg);
+      background-image: url(../assets/icons/check.svg);
       align-self: center;
       
     }
